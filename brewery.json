@@ -1,0 +1,203 @@
+
+{
+   "brewery":[
+    {
+        "name":"Dokkan brewery",
+            "location": {
+                "address":"Sindragata 11",
+                "town":"400 Ísafjörður"
+            },
+            "about":"",
+            "link":"www.dokkanbrugghus.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [66.06909, -23.12077] 
+                }   
+            },
+
+        {
+        "name":"Segull 67",
+            "location": {
+                "address":"Vetrarbraut 8-10",
+                "town":"580 Siglufjörður"
+            },
+            "about":"",
+            "link":"www.segull67.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [66.15055, -18.90417] 
+                }  
+            },
+        {
+        "name":"Einstök ölgerð",
+            "location": {
+                "address":"Furuvellir 18",
+                "town":"600 Akureyri"
+                },
+            "about":"",
+            "link":"www.einstokbeer.com",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [65.68991, -18.09519] 
+                } 
+            },
+        {
+            
+        "name":"Bruggsmiðjan Kaldi",
+            "location": {
+                "address":"Öldugata 22",
+                "town":"621 Árskógssandur"
+                },
+            "about":"",
+            "link":"www.bruggsmidjan.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [65.94411, -18.35747] 
+                }  
+            },
+        {
+        
+        "name":"Askur Taproom",
+            "location": {
+                "address":"Fagradaldsbraut",
+                "town":"700 Egilsstaðir"
+                },
+            "about":"",
+            "link":"www.askurtaproom.com",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [65.25895, -14.39099] 
+                }  
+            },
+        {
+        "name":"Beljandi brewery",
+            "location": {
+                "address":"Sólvellir 23",
+                "town":"760 Breiðdalsvík"
+                },
+            "about":"",
+            "link":"www.beljandibrugghus.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [64.79206, -14.00861] 
+                }    
+            },
+        {
+        "name":"Jón Ríki",
+            "location": {
+                "address":"Hólmir",
+                "town":"781 Höfn"
+                },
+            "about":"",
+            "link":"www.jonriki.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [64.28029, -15.48568] 
+                }   
+            },
+        {
+        "name":"Smiðjan brewery",
+            "location": {
+                "address":"Sunnubraut",
+                "town":"870 Vík"
+                },
+            "about":"",
+            "link":"www.smidjanbrugghus.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [63.41726, -19.010597] 
+                }     
+            },
+        {
+        "name":"The Brother brewery",
+            "location": {
+                "address":"Bárustígur 7",
+                "town":"900 Vestmannaeyjar"
+                },
+            "about":"",
+            "link":"www.tbb.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [63.44157, -20.26899] 
+                }     
+            },
+    {
+        "name":"Smiðjan brewery",
+            "location": {
+                "address":"Sunnubraut",
+                "town":"870 Vík"
+                },
+            "about":"",
+            "link":"www.smidjanbrugghus.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [63.41726, -19.01059] 
+                }     
+            },
+        {
+    "name":"Ölvisholt brewery",
+            "location": {
+                "address":"Ölvisholti Flóahreppi",
+                "town":"801 Selfoss"
+                },
+            "about":"",
+            "link":"www.olvisholt.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [663.96246, -20.77181] 
+                }  
+            },
+        {    
+        "name":"Ölverk pizza & brewery",
+            "location": {
+                "address":"Breiðamörk 2",
+                "town":"810 Hveragerði"
+                },
+            "about":"",
+            "link":"www.olverk.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [663.99759, -21.18907] 
+                }    
+        },
+        {
+    "name":"RVK brewing company",
+            "location": {
+                "address":"Skipholt 31",
+                "town":"Reykjavík"
+                },
+            "about":"",
+            "link":"www.rvkbrewing.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [64.14072, -21.9003] 
+                }    
+            },
+        {
+    "name":"Ægisgarður",
+            "location": {
+                "address":"Eyjarslóð 5",
+                "town":"101 Reykjavík"
+                },
+            "about":"",
+            "link":"www.aegisgardur.is",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [64.15805, -21.93981] 
+                }    
+            },
+        {
+    "name":"Steðju brewery",
+            "location": {
+                "address":"Steðji",
+                "town":"311 Borgarbyggð"
+                },
+            "about":"",
+            "link":"www.stedji.com",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [64.61538, -21.48466] 
+                }           
+            }
+        ]
+    }
