@@ -62,14 +62,60 @@ body {
     z-index:2;
     cursor:pointer;
 }
-.hamburger {
-    margin-top: 10px;
-    margin-left: 30px;
-}
+
 .liveChat {
     margin-top: 10px;
     margin-right: 30px;
 }
+
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(144, 44, 108,0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#99278F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    padding-right: 70%;
+    
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
 .forsideMobil {
     background: url(fotos/BackgroundL.png) no-repeat fixed center;
     background-size: cover;
@@ -669,7 +715,17 @@ body{
             padding-top: 4%;
         }
 
+        .mySidepanel{
+            display: none;
+        }
+        .openbtn{
+            display: none;
+        }
+
+
       }
+
+
 
         /* Laptop*/
   @media only screen and (min-width: 769px) {
