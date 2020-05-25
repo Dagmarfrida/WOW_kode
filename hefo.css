@@ -73,7 +73,7 @@ body {
 .forsideMobil {
     background: url(fotos/BackgroundL.png) no-repeat fixed center;
     background-size: cover;
-    position: absolute;
+    position: relative;
     left: 0px;
     top: -10px;
     height: 98vh;
@@ -392,3 +392,333 @@ footer p {
     
 }
 
+
+
+@font-face {
+    font-family: Alcefun;
+    src: url(Alcefun.otf);
+  }
+
+body{
+    margin: 0px;
+}
+.landscape{
+ max-width: 100%;
+ height: auto;
+ margin: -30px 0px 0px 0px;
+}
+
+/*tablet photo*/
+.landscape1 {
+    display: none;
+}
+
+.destinationtxt{
+    text-align: left;
+    background-color:#99278F;
+    color: white;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-family: Alcefun; 
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 28px;
+   
+}
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  .gallery {
+    position: relative;
+    color: white; 
+    font-family: Alcefun;
+ 
+  }
+
+
+  /*destination*/
+  .txt1 {
+    background-color:rgba(144, 44, 108,0.5);
+    color: #ffffff;
+    padding-left: 29%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .txt2 {
+    background-color:rgba(144, 44, 108,0.5);
+    color: #ffffff;
+    padding-left: 27%;
+    padding-right: 26%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .txt3 {
+    background-color:rgba(144, 44, 108,0.5);
+    color: #ffffff;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .txt4 {
+    background-color:rgba(144, 44, 108,0.5);
+    color: #ffffff;
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*price circle*/
+
+  .price1{
+      background: linear-gradient(#FF6F59, #FEE382);
+      font-weight: bold;
+      color: #441151;
+      padding: 7%;
+      padding-top: 9%;
+      border-radius: 50%;
+      text-align: center;
+      position: absolute;
+      top: 65%;
+      left: 95%;
+      transform: translate(-70%, -75%);
+  }
+
+  .price2{
+    background: linear-gradient(#FF6F59, #FEE382);
+    font-weight: bold;
+    color: #441151;
+    padding: 7%;
+    padding-top: 9%;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(-70%, -75%);
+}
+  
+.price3{
+    background: linear-gradient(#FF6F59, #FEE382);
+    font-weight: bold;
+    color: #441151;
+    padding: 7%;
+    padding-top: 9%;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(-70%, -75%);
+}
+
+.price4{
+    background: linear-gradient(#FF6F59, #FEE382);
+    font-weight: bold;
+    color: #441151;
+    padding: 7%;
+    padding-top: 9%;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(-70%, -75%);
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 7px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+/*gallery*/ 
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 100px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+
+/* Mobile M */
+  @media only screen and (min-width: 321px) {
+
+  }
+
+
+    .txt1 {
+        padding-left: 33%;
+        padding-right: 33%;
+    }
+    .txt2 {
+        padding-left: 31%;
+        padding-right: 30%;
+    }
+    .txt3 {
+        padding-left: 42%;
+        padding-right: 41%;
+    }
+    .txt4 {
+        padding-left: 28%;
+        padding-right: 27%;
+    }
+  
+
+  /* Mobile L */
+  @media only screen and (min-width: 376px) {
+    .txt1 {
+        padding-left: 34%;
+        padding-right: 36%;
+    }
+    .txt2 {
+        padding-left: 35%;
+        padding-right: 31%;
+    }
+    .txt3 {
+        padding-left: 44%;
+        padding-right: 41%;
+    }
+    .txt4 {
+        padding-left: 32%;
+        padding-right: 28%;
+    }
+  }
+
+    /* Tablet */
+    @media only screen and (min-width: 426px) {
+        .txt1 {
+            padding-left: 33%;
+            padding-right: 34%;
+        }
+        .txt2 {
+            padding-left: 33%;
+            padding-right: 30%;
+        }
+        .txt3 {
+            padding-left: 43%;
+            padding-right: 40%;
+        }
+        .txt4 {
+            padding-left: 29%;
+            padding-right: 27%;
+        }
+        .landscape {
+            display: none;
+        }
+
+        .landscape1{
+            display: block;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            padding-top: 4%;
+        }
+
+      }
+
+        /* Laptop*/
+  @media only screen and (min-width: 769px) {
+    .txt1 {
+        padding-left: 38%;
+        padding-right: 38%;
+    }
+    .txt2 {
+        padding-left: 36%;
+        padding-right: 36%;
+    }
+    .txt3 {
+        padding-left: 44%;
+        padding-right: 44%;
+    }
+    .txt4 {
+        padding-left: 34%;
+        padding-right: 34%;
+    }
+  }
+
+ /* Laptop L*/
+ @media only screen and (min-width: 1025px) {
+.txt1 {
+     padding-left: 41%;
+      padding-right: 42%;
+  }
+ .txt2 {
+    padding-left: 41%;
+    padding-right: 40%;
+    }
+.txt3 {
+    padding-left: 46%;
+    padding-right: 46%;
+    }
+.txt4 {
+    padding-left: 39%;
+    padding-right: 38%;
+    }
+}
+
+ /* Desktop*/
+ @media only screen and (min-width: 1441px) {
+    .txt1 {
+         padding-left: 45%;
+          padding-right: 46%;
+      }
+     .txt2 {
+        padding-left: 45%;
+        padding-right: 44%;
+        }
+    .txt3 {
+        padding-left: 48%;
+        padding-right: 48%;
+        }
+    .txt4 {
+        padding-left: 43%;
+        padding-right: 43%;
+        }
+    }
