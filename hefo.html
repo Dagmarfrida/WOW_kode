@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="hefo.css">
-  <link rel="stylesheet" href="/FontAwesome/all.min.css">
-  
-  
-      <!--  <link rel="stylesheet" href="./style/scss.css">-->
+    <link rel="stylesheet" href="hefo.css">
+    <link rel="stylesheet" href="/FontAwesome/all.min.css">
+        <!--  <link rel="stylesheet" href="./style/scss.css">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+    <!--MOBIL-->
+    <header class="mobilHeader">
         <img class="wowLila" src="fotos/logolila.png" alt="WOW air logo purple">
-          </header>
-          <nav class="navigation">
-            <ul>
-                <li class="hamburger"><a href="#"><img src="fotos/Hamburger_icon.png" alt="hamburger icon"></a></li>
-                 <li class="ticket"><a href="#"><img src="fotos/ticket.png" alt="ticket icon"></a></li>
-                <li class="liveChat"><a href="#"><img src="fotos/livechat.png" alt="live chat icon"></a></li>
-             </ul>
-            </nav> 
-    <header class="tabletHeader">
-        <img class='wowHvid' src="fotos/logohvid.png" alt="wow air logo white ">
-        <div class="headerNav">
-            <ul>
-            <a href="#"><li><h2>Home</h2></li></a>
-            <a href="#"><li></li> <h2>Check In</h2></li></a>
-            <a href="#"><li> <h2>My Bookings</h2></li></a>
-            <a href="#"><li> <h2>Travel Info</h2></li></a>            
-        </ul>
-    </div>
     </header>
+    <nav class="navigation">
+        <ul>
+            <li class="hamburger"><a href="#"><img src="fotos/Hamburger_icon.png" alt="hamburger icon"></a></li>
+            <li class="ticket"><a href="#"><img src="fotos/ticket.png" alt="ticket icon"></a></li>
+            <li class="liveChat"><a href="#"><img src="fotos/livechat.png" alt="live chat icon"></a></li>
+            </ul>
+        </nav> 
     <section class="forsideMobil">
         <h1>The World Awaits</h1>
     </section>
+    <!--TABLET/DESKTOP-->
+    <header class="tabletHeader">
+        <div class="headerNav">
+            <img class='wowHvid' src="fotos/logohvid.png" alt="wow air logo white ">
+            <ul>
+                <a href="#"><li><h2>Home</h2></li></a>
+                <a href="#"><li><h2>Check In</h2></li></a>
+                <a href="#"><li><h2>My Bookings</h2></li></a>
+                <a href="#"><li><h2>Travel Info</h2></li></a>            
+            </ul>
+        </div>
+    </header>
+    <section class="forside">
+        <div class="bookingDesktop">
+            <h2>Find flights</h2>
+             <form action="">
+                 <input type="text" name="from" id="from" placeholder="From:">
+                 <img src="/fotos/airplane_lila.png" alt="airplane icon">
+                 <input type="text" name="to" id="to" placeholder="To:">
+                <input type="submit" name="search flights" id="searchBtn" value="Search flights">
+             </form>
+            </div>
+       <div class="gulTekst">
+             <h2 class="honest">Honest fares</h2>
+            <h2 class="refunds">Refunds</h2>
+            <h2 class="prices">Prices</h2>
+            <h2 class="what">What you see is what you get</h2>
+        </div>
+    </section>
+    <!--BOOKING TABLET-->
+    <section class="bookingTablet">
+       <h2>Find flights</h2>
+        <form action="">
+            <input type="text" name="from" id="from" placeholder="From:">
+            <img src="/fotos/flymaskine_hvid.png" alt="airplane icon">
+            <input type="text" name="to" id="to" placeholder="To:">
+            <input type="submit" name="search flights" id="searchBtn" value="Search flights">
+        </form>
+   </section>
     <footer>
        <div class="footer_left">
            <h4>WOW air</h4>
