@@ -75,7 +75,7 @@ var styledMap = [
                 "visibility": "simplified"
             },
             {
-                "color": "#5a0a76"
+                "color": "#99278F"
             }
         ]
     },
@@ -210,36 +210,12 @@ var styledMap = [
          }
         //new map
         var map = new google.maps.Map(document.getElementById('map'), options);    
-        
 
         //make marker
         var beer = {
             url: 'fotos/Beer-PNG-2.png',
             scaledSize: new google.maps.Size(30, 30)   
         };
-
-        // add markers   
-        // map.data.loadGeoJson ('Iceland.geojson'); 
-        // map.data.setStyle({
-        //     icon: beer,   
-        // });
-
-     
-        
-         // InfoWindow content
-  var content = '<div id="iw-container">' +
-  '<div class="iw-title">Porcelain Factory of Vista Alegre</div>' +
-  '<div class="iw-content">' +
-    '<div class="iw-subTitle">History</div>' +
-    '<p>Founded in 1824, the Porcelain Factory of Vista Alegre was the first industrial unit dedicated to porcelain production in Portugal. For the foundation and success of this risky industrial development was crucial the spirit of persistence of its founder, José Ferreira Pinto Basto. Leading figure in Portuguese society of the nineteenth century farm owner, daring dealer, wisely incorporated the liberal ideas of the century, having become "the first example of free enterprise" in Portugal.</p>' +
-    '<div class="iw-subTitle">Contacts</div>' +
-    '<p>VISTA ALEGRE ATLANTIS, SA<br>3830-292 Ílhavo - Portugal<br>'+
-    '<br>Phone. +351 234 320 600<br>e-mail: geral@vaa.pt<br>www: www.myvistaalegre.com</p>'+
-  '</div>' +
-  '<div class="iw-bottom-gradient"></div>' +
-'</div>';
-
-
 
 // marker options
 var marker = new google.maps.Marker({
@@ -248,21 +224,10 @@ map: map,
 icon: map.data.setStyle({
          icon: beer,   
      }),
-//title: 'title'
+
 });
 
-// A new Info Window is created and set content
-// var infowindow = new google.maps.InfoWindow({
-//     content: content,
-    
-    // Assign a maximum value for the width of the infowindow allows
-    // greater control over the various content elements
-    // maxWidth: 50
-    // });
-
-// This event expects a click on a marker
-// When this event is fired the Info Window is opened.
- 
+ //gets data from geojson
  var infoWindow = new google.maps.InfoWindow({maxWidth: 350});
  map.data.addListener('click', function(event) {
  var myHTML = event.feature.getProperty("Name");
@@ -282,17 +247,17 @@ icon: map.data.setStyle({
  infoWindow.open(map, marker);
  });
 
-// Event that closes the Info Window with a click on the map
+ //info window styling med stor hjælp fra - http://en.marnoto.com/2014/09/5-formas-de-personalizar-infowindow.html
+
+ // Event that closes the Info Window with a click on the map
 google.maps.event.addListener(map, 'click', function() {
     infoWindow.close();
 });
 
-// *
+
 // START INFOWINDOW CUSTOMIZE.
-// The google.maps.event.addListener() event expects
-// the creation of the infowindow HTML structure 'domready'
-// and before the opening of the infowindow, defined styles are applied.
-// *
+// before the opening of the infowindow, defined styles are applied.
+
 google.maps.event.addListener(infoWindow, 'domready', function() {
 
 // Reference to the DIV that wraps the bottom of infowindow
