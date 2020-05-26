@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" href="hefo.css">
     <link rel="stylesheet" href="/FontAwesome/all.min.css">
-        <!--  <link rel="stylesheet" href="./style/scss.css">-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>   
+    <!--  <link rel="stylesheet" href="./style/scss.css">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -13,32 +14,29 @@
     <header class="mobilHeader">
         <img class="wowLila" src="fotos/logolila.png" alt="WOW air logo purple">
     </header>
-
- 
-      
-    <nav class="navigation">
-        <ul>  
-            
-          
-            <li class="burgermenu"> 
-        <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">+1555-5555</a>
-        <a href="#">Check In</a>
-        <a href="#">My Bookings</a>
-        <a href="#">Travel Info</a>
-        <a href="#">Search</a>
-    
-    </div></a></li>
-  <button class="openbtn" onclick="openNav()">☰ </button> 
-     <li class="ticket"><a href="#"><img src="fotos/ticket.png" alt="ticket icon"></a></li>
-     <li class="liveChat"><a href="#"><img src="fotos/livechat.png" alt="live chat icon"></a></li>
+        <nav class="navigation">
+            <ul>  
+                <li class="burgermenu"> 
+                    <div id="mySidepanel" class="sidepanel">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="#">+1555-5555</a>
+                        <a href="#">Check In</a>
+                        <a href="#">My Bookings</a>
+                        <a href="#">Travel Info</a>
+                        <a href="#">Search</a>
+                    </div>
+                 </li>
+                <button class="openbtn" onclick="openNav()">☰ </button> 
+                    <li class="ticket"><a href="#"><img src="fotos/ticket.png" alt="ticket icon"></a></li>
+                    <li class="liveChat"><a href="#"><img src="fotos/livechat.png" alt="live chat icon"></a></li>
             </ul>
         </nav> 
     <section class="forsideMobil">
         <h1>The World Awaits</h1>
     </section>
+
     <!--TABLET/DESKTOP-->
+
     <header class="tabletHeader">
         <div class="headerNav">
             <img class='wowHvid' src="fotos/logohvid.png" alt="wow air logo white ">
@@ -50,6 +48,7 @@
             </ul>
         </div>
     </header>
+    <img src="/fotos/livechat.png" alt="Livechat icon" id="liveChat">
     <section class="forside">
         <div class="bookingDesktop">
             <h2>Find flights</h2>
@@ -68,7 +67,9 @@
             <h2 class="what">What you see is what you get</h2>
         </div>
     </section>
+
     <!--BOOKING TABLET-->
+
     <section class="bookingTablet">
        <h2>Find flights</h2>
         <form action="">
@@ -78,6 +79,36 @@
             <input type="submit" name="search flights" id="searchBtn" value="Search flights">
         </form>
    </section>
+   <div class="honestSign">
+        <section class="honestFares">
+            <h3>Honest Fares</h3>
+            <div class="hfIcons">
+                <div class="bags">
+                    <img src="/fotos/bag.png" alt="bag icon">
+                    <p>Bags</p>
+                </div>
+                <div class="seats">
+                    <img src="/fotos/seat.png" alt="fly seat icon">
+                    <p>Seats</p>
+                </div>
+                <div class="nutrition">
+                    <img src="/fotos/cutlery.png" alt="cutlery icon">
+                    <p>Nutrition</p>
+                </div> 
+            </div>
+            <p class="honestTekst">WOW air leads the industry with Honest Fares™ which means when you book on WOW air, your Honest Fare includes your bag, seat, food and Internet while traveling in WOW world. <br><br> WOW fares include all the basics one expects at an honest price <br><br> WOW world™ we offer Honest Fares.</p>
+            <a href="#"><button id="readMoreBtn">Read more...</button></a>
+        </section>
+        <section class="signUp">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_GIqo2k.json" background="transparent"  speed="1" class="mailbox" loop autoplay></lottie-player> 
+            <!--you can put ´controls´ after loop to see play/pause and timeline of the animation-->
+            <p class="signupTekst">Sign up to our e-mail list to get the latest news and the best deals when we start our service again</p>
+            <form action="">
+                <input type="email" id="email" name="email" value="@">
+                <input id="signupBtn" type="submit" value="Sign Up!">
+            </form>
+        </section>
+    </div>
 
     <!--HEXAGON MOBILE-->
    <div class="scrolling-wrapper">
@@ -125,9 +156,7 @@
 
 <img class="landscape" src="fotos/telt.jpg" alt="Landscape">
 
-<h1 class="destinationtxt">Just a flight away</h1>
-    
-
+<h2 class="headerUndersider">Just a flight away</h2>
 <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="fotos/reykjavik.jpg">
