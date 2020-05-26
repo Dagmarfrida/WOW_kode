@@ -172,6 +172,11 @@ body {
     margin: 3%;
     border-radius: 20px;
 }
+.signUp {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
 .honestFares h3 {
     padding-top: 1rem;
     font-size: 5vw;
@@ -187,12 +192,12 @@ body {
 
 #readMoreBtn {
     font-family: 'Alcefun';
-    font-size: 16px;
+    font-size: calc(14px + 1vw);
     background-color: #99278F;
     color: #ffffff;
-    width: 134px;
+    width: calc(134px + 4vw);
     border-radius: 10px;
-    height: 31px;
+    height: calc(31px + 2vw);
     margin-bottom: 10px;
 }
 #readMoreBtn:hover {
@@ -202,8 +207,9 @@ body {
 .mailbox {
     padding-top: 1rem;
     display: inline-block;
-    width: 100px; 
-    height: 100px;
+    width: calc(100px + 2vw); 
+    height: calc(100px + 2vw);
+    align-self: center;
 }
 .signUp form {
    
@@ -219,21 +225,24 @@ body {
     border-radius: 10px;
     margin-bottom: 1rem;
     padding: 5px;
-    height: 31px;
-    
-
+    height: calc(31px + 1vw);
+    width: calc(150px + 3vw);
+    color: #99278F;
+    font-size: calc(14px + 1vw);
 }
 #signupBtn {
     margin-top: 0;
+    font-size: calc(14px + 1vw);
     font-family: 'Alcefun';
     color: white;
     background-color: #99278F;
     border-radius: 10px;
     padding: 5px;
-    width: 70px;
-    height: 31px;
-    
+    height: calc(31px + 1vw);
+    width: calc(50px + 5vw);
 }
+
+
 #signupBtn:hover {
     background-color: #cc5bcc;
 }
@@ -420,7 +429,12 @@ footer p {
         cursor: pointer;
         text-transform: uppercase;
         font-size: 24px;
+        
+        
     }
+    
+
+
 
     .honestSign {
         padding-right: 5em;
@@ -429,6 +443,8 @@ footer p {
 
     /*FOOTER*/
     footer {
+        
+        position: inherit !important;
         justify-content: space-between;
     }
 
@@ -552,7 +568,7 @@ footer p {
         text-transform: uppercase;
         font-size: 20px;
     }
-
+  
     .honestSign {
         display: flex;
         font-size: 22px;
@@ -562,8 +578,6 @@ footer p {
     }
     
 }
-
-
 .landscape{
  max-width: 100%;
  height: auto;
@@ -929,13 +943,31 @@ footer p {
     padding-bottom: 17%;
 }
 
+/* Hexagon mobile*/
 
+@media only screen and (max-width: 425px) {
+.hexagon-gallery{
+    display: none;
+}
+.hexagon-gallery1{
+    display: none;
+}
+
+}
  /* Hexagon gallery Tablet*/
  
  @media only screen and (min-width: 426px) {
 
     .scrolling-wrapper {
         display: none; 
+    }
+
+    .hexagon-gallery1{
+        display: none;
+    }
+
+    .hexagon-gallery{
+        display: block;
     }
 
    
@@ -1005,3 +1037,104 @@ footer p {
   }
   
 }
+
+/*Hexagon gallery laptop L*/
+
+@media only screen and (min-width: 1023px) {
+
+    .scrolling-wrapper {
+        display: none; 
+    }
+
+    .hexagon-gallery{
+        display: none;
+    }
+
+   
+.hexagon-gallery1 {
+    
+    display: grid;
+    grid-template-columns: repeat(7, 180px);
+    padding-bottom: 70px;
+    padding-top: 25px;
+    grid-auto-columns: 100px;
+    grid-gap: 14px;
+  }
+  
+  .hex1 {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #424242;
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  }
+  
+  .hex1:first-child {
+    grid-column-start:1 ;
+    grid-row: 3 / span 2;
+  }
+  
+  .hex1:nth-child(2) {
+    grid-column-start:2 ;
+    grid-row: 2 / span 2;
+  }
+  
+  .hex1:nth-child(3) {
+    grid-column-start:2 ;
+    grid-row: 4 / span 2;
+  }
+  
+  .hex1:nth-child(4) {
+    grid-column-start:3 ;
+    grid-row: 1 / span 2;
+  }
+  
+  .hex1:nth-child(5) {
+    grid-column-start:3 ;
+    grid-row: 3 / span 2;
+  }
+  
+  .hex1:nth-child(6) {
+    grid-column-start:3 ;
+    grid-row: 5 / span 2;
+  }
+  
+  .hex1:nth-child(7) {
+    grid-column-start:4 ;
+    grid-row: 2 / span 2;
+  }
+  
+  .hex1:nth-child(8) {
+    grid-column-start:4 ;
+    grid-row: 4 / span 2;
+  }
+  
+  .hex1:nth-child(9) {
+    grid-column-start:5 ;
+    grid-row: 3 / span 2;
+  }
+
+  .hex1:nth-child(10) {
+    grid-column-start:5 ;
+    grid-row: 5 / span 2;
+  }
+  
+  .hex1:nth-child(11) {
+    grid-column-start:6 ;
+    grid-row: 2 / span 2;
+  }
+
+  .hex1:nth-child(12) {
+    grid-column-start:6 ;
+    grid-row: 4 / span 2;
+  }
+
+  .hex1:nth-child(13) {
+    grid-column-start:7 ;
+    grid-row: 3 / span 2;
+  }
+
+}
+
