@@ -796,3 +796,114 @@ body{
         padding-right: 43%;
         }
     }
+
+
+    /*Hexagon gallery*/
+ 
+    /*function*/ 
+
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+      }
+      
+      .card {
+          display: inline-block;
+        }
+
+        .scrolling-wrapper {
+            -webkit-overflow-scrolling: touch;
+          }
+
+          /*style*/
+
+    .card{
+        width: 190px;
+        height: 215px;
+        background-color: #424242;
+        -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+
+.scrolling-wrapper{
+    padding-top: 10%;
+    padding-bottom: 17%;
+}
+
+
+ /* Hexagon gallery Tablet*/
+ 
+ @media only screen and (min-width: 426px) {
+
+    .scrolling-wrapper {
+        display: none; 
+    }
+
+   
+.hexagon-gallery {
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding-bottom: 70px;
+    padding-top: 25px;
+    grid-auto-rows: 150px;
+    grid-gap: 14px;
+  }
+  
+  .hex {
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: 190px;
+    background-color: #424242;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .hex:first-child {
+    grid-row-start: 1;
+    grid-column: 4 / span 2;
+  }
+  
+  .hex:nth-child(2) {
+    grid-row-start: 2;
+    grid-column: 3 / span 2;
+  }
+  
+  .hex:nth-child(3) {
+    grid-row-start: 2;
+    grid-column: 5 / span 2;
+  }
+  
+  .hex:nth-child(4) {
+    grid-row-start: 3;
+    grid-column: 2 / span 2;
+  }
+  
+  .hex:nth-child(5) {
+    grid-row-start: 3;
+    grid-column: 4 / span 2;
+  }
+  
+  .hex:nth-child(6) {
+    grid-row-start: 3;
+    grid-column: 6 / span 2;
+  }
+  
+  .hex:nth-child(7) {
+    grid-row-start: 4;
+    grid-column: 3 / span 2;
+  }
+  
+  .hex:nth-child(8) {
+    grid-row-start: 4;
+    grid-column: 5 / span 2;
+  }
+  
+  .hex:nth-child(9) {
+    grid-row-start: 5;
+    grid-column: 4 / span 2;
+  }
+  
+}
