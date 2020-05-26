@@ -172,6 +172,11 @@ body {
     margin: 3%;
     border-radius: 20px;
 }
+.signUp {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
 .honestFares h3 {
     padding-top: 1rem;
     font-size: 5vw;
@@ -180,17 +185,18 @@ body {
     padding: 1rem;
     display: inline-block;
     text-align: left;
+    font-size: calc(14px + 1vw);
     
 }
 
 #readMoreBtn {
     font-family: 'Alcefun';
-    font-size: 16px;
+    font-size: calc(14px + 1vw);
     background-color: #99278F;
     color: #ffffff;
-    width: 134px;
+    width: calc(134px + 4vw);
     border-radius: 10px;
-    height: 31px;
+    height: calc(31px + 2vw);
     margin-bottom: 10px;
 }
 #readMoreBtn:hover {
@@ -200,8 +206,9 @@ body {
 .mailbox {
     padding-top: 1rem;
     display: inline-block;
-    width: 100px; 
-    height: 100px;
+    width: calc(100px + 2vw); 
+    height: calc(100px + 2vw);
+    align-self: center;
 }
 .signUp form {
    
@@ -217,19 +224,25 @@ body {
     border-radius: 10px;
     margin-bottom: 1rem;
     padding: 5px;
-    height: 31px;
-    
-
+    height: calc(31px + 1vw);
+    width: calc(150px + 3vw);
+    color: #99278F;
+    font-size: calc(14px + 1vw);
 }
 #signupBtn {
     margin-top: 0;
+    font-size: calc(14px + 1vw);
     font-family: 'Alcefun';
     color: white;
     background-color: #99278F;
     border-radius: 10px;
     padding: 5px;
-    width: 70px;
-    height: 31px;
+   
+    height: calc(31px + 1vw);
+    width: calc(50px + 5vw);
+}
+
+
     
 }
 #signupBtn:hover {
@@ -427,6 +440,8 @@ footer p {
 
     /*FOOTER*/
     footer {
+        
+        position: inherit !important;
         justify-content: space-between;
     }
 
