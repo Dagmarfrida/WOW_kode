@@ -926,13 +926,31 @@ footer p {
     padding-bottom: 17%;
 }
 
+/* Hexagon mobile*/
 
+@media only screen and (max-width: 425px) {
+.hexagon-gallery{
+    display: none;
+}
+.hexagon-gallery1{
+    display: none;
+}
+
+}
  /* Hexagon gallery Tablet*/
  
  @media only screen and (min-width: 426px) {
 
     .scrolling-wrapper {
         display: none; 
+    }
+
+    .hexagon-gallery1{
+        display: none;
+    }
+
+    .hexagon-gallery{
+        display: block;
     }
 
    
@@ -1003,9 +1021,9 @@ footer p {
   
 }
 
-/*Hexagon gallery desktop*/
+/*Hexagon gallery laptop L*/
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 1023px) {
 
     .scrolling-wrapper {
         display: none; 
@@ -1102,3 +1120,4 @@ footer p {
   }
 
 }
+
