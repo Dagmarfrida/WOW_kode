@@ -139,7 +139,102 @@ body {
     text-transform: uppercase;
     color: white;
 }
+.honestSign {
+    font-family: 'Alcefun';
+    padding: 2em 2em 2em 2em;
+    background: #99278F;
+    padding: 5%;
+    margin: 3em 0 3em 0;
+}
+.hfIcons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.hfIcons img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 0.6rem;
+}
+.hfIcons {
+    font-size: 14px;
+    
+}
+.bags, .seats, .nutrition {
+    display: flex;
+    flex-flow: column;
+}
 
+.honestFares, .signUp { 
+    text-align: center;
+    background: white;
+    margin: 3%;
+    border-radius: 20px;
+}
+.honestFares h3 {
+    padding-top: 1rem;
+    font-size: 5vw;
+}
+.honestTekst, .signupTekst {
+    padding: 1rem;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+#readMoreBtn {
+    font-family: 'Alcefun';
+    font-size: 16px;
+    background-color: #99278F;
+    color: #ffffff;
+    width: 134px;
+    border-radius: 10px;
+    height: 31px;
+    margin-bottom: 10px;
+}
+#readMoreBtn:hover {
+    background-color: #cc5bcc;
+}
+
+.mailbox {
+    padding-top: 1rem;
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+}
+.signUp form {
+   
+    font-family: 'Alcefun';
+    text-align: right;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#email {
+    border: 2px solid #99278F;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 5px;
+    height: 31px;
+    
+
+}
+#signupBtn {
+    margin-top: 0;
+    font-family: 'Alcefun';
+    color: white;
+    background-color: #99278F;
+    border-radius: 10px;
+    padding: 5px;
+    width: 70px;
+    height: 31px;
+    
+}
+#signupBtn:hover {
+    background-color: #cc5bcc;
+}
 .footer {
     display: flex;
     flex-flow: row;
@@ -180,7 +275,7 @@ body {
 
 footer h4 {
     font-size: 20px;
-    font-family: 'proxima';
+    font-family: 'proximaRegular';
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -188,11 +283,11 @@ footer p {
     font-size: 12px;
 }
 /*DISPLAY: NONE*/
-.tabletHeader, .wowHvid, .booking, .gulTekst, .bookingTablet, .bookingDesktop, #airplane, .soMe_iconsL{
+.tabletHeader, .wowHvid, .booking, .gulTekst, .bookingTablet, .bookingDesktop, #airplane, .soMe_iconsL, #liveChat{
     display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     /*HEADER*/
    
     .headerNav {
@@ -228,6 +323,16 @@ footer p {
     }
         .wowHvid {
         display: block;
+    }
+    #liveChat {
+        display: block;
+        position: fixed;
+        right: 2%;
+        bottom: 2%;
+        z-index: 100;
+        width: 80px;
+        height: 80px;
+       ;
     }
     .forside {
         background: url(fotos/forside_baggrunTablet.png) no-repeat center;
@@ -315,6 +420,11 @@ footer p {
         font-size: 24px;
     }
 
+    .honestSign {
+        padding-right: 5em;
+        padding-left: 5em;
+    }
+
     /*FOOTER*/
     footer {
         justify-content: space-between;
@@ -354,13 +464,6 @@ footer p {
     .headerNav li {
         font-size: 1.8vw;
     }
-    /*@keyframes move {
-        from { bottom: 0; left: 0; }
-        to   { top: 50px; left: 100px; }
-      
-    }*/
-    
-    
     
     #airplane {
         display: block;
@@ -369,7 +472,6 @@ footer p {
         width: 80vw;
         right: 2vw;
         top: 10vh;
-       /* animation: move 10s ease-in-out infinite alternate;*/
     }
    
      
@@ -447,9 +549,11 @@ footer p {
         text-align: center;
         text-transform: uppercase;
         font-size: 20px;
-    
     }
 
+    .honestSign {
+        display: flex;
+    }
     .bookingTablet {
         display: none;
     }
@@ -457,15 +561,6 @@ footer p {
 }
 
 
-
-@font-face {
-    font-family: Alcefun;
-    src: url(Alcefun.otf);
-  }
-
-body{
-    margin: 0px;
-}
 .landscape{
  max-width: 100%;
  height: auto;
@@ -477,7 +572,7 @@ body{
     display: none;
 }
 
-.destinationtxt{
+.headerUndersider{
     text-align: left;
     background-color:#99278F;
     color: white;
@@ -488,7 +583,7 @@ body{
     font-weight: lighter;
     margin-top: 0px;
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 4vw;
    
 }
 
