@@ -185,7 +185,8 @@ body {
     padding: 1rem;
     display: inline-block;
     text-align: left;
-    font-size: calc(14px + 1vw);
+    font-size: calc(12px + 1vw);
+    
     
 }
 
@@ -243,8 +244,6 @@ body {
 }
 
 
-    
-}
 #signupBtn:hover {
     background-color: #cc5bcc;
 }
@@ -568,6 +567,7 @@ footer p {
 
     .honestSign {
         display: flex;
+        font-size: 22px;
     }
     .bookingTablet {
         display: none;
