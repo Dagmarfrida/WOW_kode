@@ -27,7 +27,7 @@ var styledMap = [
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#e8b8f9"
+                "color": "#441151"
             }
         ]
     },
@@ -60,7 +60,7 @@ var styledMap = [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#58106e"
+                "color": "#99278F"
             },
             {
                 "visibility": "simplified"
@@ -87,7 +87,7 @@ var styledMap = [
                 "visibility": "simplified"
             },
             {
-                "color": "#58176e"
+                "color": "#99278F"
             }
         ]
     },
@@ -238,7 +238,7 @@ icon: map.data.setStyle({
  var myImg = event.feature.getProperty("image");
  infoWindow.setContent('<div id="iw-container">' +
  '<div class="iw-title">' + myHTML+ '</div>' +
- '<div class="iw-content">' + '<img src="' + myImg +'">' + '<p>' +myDesc+'</div>' + myAddress + '<br>' + myTown +  '<br>' + myLink + '</p>'+'</div>' +
+ '<div class="iw-content">' + '<img src="' + myImg +'">' + '<p>' +myDesc+'</div>' + myAddress + '<br>' + myTown +  '<br>' +  myLink + '</div>' +
  '<div class="iw-bottom-gradient"></div>' +
 '</div>');
 
