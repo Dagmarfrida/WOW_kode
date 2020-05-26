@@ -354,6 +354,14 @@ footer p {
     .headerNav li {
         font-size: 1.8vw;
     }
+    /*@keyframes move {
+        from { bottom: 0; left: 0; }
+        to   { top: 50px; left: 100px; }
+      
+    }*/
+    
+    
+    
     #airplane {
         display: block;
         position: absolute;
@@ -361,7 +369,10 @@ footer p {
         width: 80vw;
         right: 2vw;
         top: 10vh;
+       /* animation: move 10s ease-in-out infinite alternate;*/
     }
+   
+     
     .gulTekst  {
         grid-column: 2;
         grid-row: 2;
