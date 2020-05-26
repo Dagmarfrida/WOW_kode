@@ -1038,7 +1038,7 @@ footer p {
 
 /*Hexagon gallery laptop L*/
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 1020px) {
 
     .scrolling-wrapper {
         display: none; 
@@ -1052,7 +1052,7 @@ footer p {
 .hexagon-gallery1 {
     
     display: grid;
-    grid-template-columns: repeat(7, 180px);
+    grid-template-columns: repeat(7, 125px);
     padding-bottom: 70px;
     padding-top: 25px;
     grid-auto-columns: 100px;
@@ -1062,8 +1062,8 @@ footer p {
   .hex1 {
     display: flex;
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     background-color: #424242;
     -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
     clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
@@ -1136,3 +1136,34 @@ footer p {
 
 }
 
+/*Hexagon gallery laptop L*/
+
+
+
+@media only screen and (min-width: 1400px) {
+
+    .hexagon-gallery1 {
+        grid-template-columns: repeat(7, 180px);
+        padding-left: 1%;
+    }
+    
+    .hex1 {
+        width: 245px;
+        height: 245px;
+    }
+}
+
+/*Hexagon gallery desktop*/
+
+@media only screen and (min-width: 2550px) {
+
+.hexagon-gallery1 {
+    grid-template-columns: repeat(7, 300px);
+    padding-left: 5%;
+}
+
+.hex1 {
+    width: 400px;
+    height: 400px;
+}
+}
