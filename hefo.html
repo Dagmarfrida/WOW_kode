@@ -28,7 +28,7 @@
                  </li>
                 <button class="openbtn" onclick="openNav()">☰ </button> 
                     <li class="ticket"><a href="#"><img src="fotos/ticket.png" alt="ticket icon"></a></li>
-                    <li class="liveChat"><a href="#"><img src="fotos/livechat.png" alt="live chat icon"></a></li>
+                    <li class="liveChatLogo"><a href="#"><img src="fotos/ChatBot.svg" alt="live chat icon"></a></li>
             </ul>
         </nav> 
     <section class="forsideMobil">
@@ -48,15 +48,17 @@
             </ul>
         </div>
     </header>
-    <img src="/fotos/livechat.png" alt="Livechat icon" id="liveChat">
-    <section class="forside">
+        <section class="forside">
         <div class="bookingDesktop">
             <h2>Find flights</h2>
              <form action="">
-                 <input type="text" name="from" id="from" placeholder="From:">
+                 <div class="fromTo"><input type="text" name="from" id="from" placeholder="From:">
                  <img src="/fotos/airplane_lila.png" alt="airplane icon">
                  <input type="text" name="to" id="to" placeholder="To:">
+                 </div>
+                 <div class="searchBtnContainer">
                 <input type="submit" name="search flights" id="searchBtn" value="Search flights">
+            </div>
              </form>
             </div>
             <img src="/fotos/flyverudenhjul1.svg" alt="wow airplane" id="airplane">
@@ -67,6 +69,8 @@
             <h2 class="what">What you see is what you get</h2>
         </div>
     </section>
+    <div id="liveChatContainer"><img src="/fotos/ChatBot.svg" alt="Livechat icon" id="liveChat">
+    </div>
 
     <!--BOOKING TABLET-->
 
@@ -205,16 +209,18 @@
     <footer class="footer">
        <div class="footer_left">
            <h4>WOW air</h4>
-            <p>Contact</p><br><br><br>
-            <p>Disclaimer</p>
+           <a href="#"><p>Contact</p></a>
+            <a href="#"><p>Airports</p></a>
+            <p>News from WOW</p>
+            
         </div> 
         <div class="footer_center">
             <h4>WOW World</h4>
-            <p>News from WOW</p>
             <p>About WOW</p>
-            <p>WOW air Cargo</p>
+            
+            <p class="noMobil">WOW air Cargo</p>
             <p>Honest Fares</p>
-            <p>Wow Magazine</p>
+            <p class="noMobil">WOW Magazine</p>
         </div>
         <div class="footer_right">
             <h4>Fly with us</h4>
@@ -229,7 +235,8 @@
                 <a href="#"><img src="fotos/Instagram_iconL.png" alt="Instagram icon"></a>
                 <a href="#"><img src="fotos/Twitter_iconL.png" alt="Twitter icon"></a>
                 <a href="#"><img src="fotos/Linkedin_iconL.png" alt="Linkedin icon"></a>
-            </div>
+            </div> <br>
+            <p>Disclaimer</p>
         </div>
     </footer>
     <script src="script.js"></script>
