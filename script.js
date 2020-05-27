@@ -329,4 +329,44 @@ function openNav() {
   }
 
 
-           
+//Modal pop up hex gallery
+//https://www.youtube.com/watch?v=MBaw_6cPmAw
+  const openModalImages = document.querySelectorAll('[data-modal-target]')
+  const closeModalButtons = document.querySelectorAll('[data-close-button]')
+  const overlay = document.getElementById('overlay')
+  
+  openModalImages.forEach(img => {
+    img.addEventListener('click', () => {
+      const modal = document.querySelector(img.dataset.modalTarget)
+      openModal(modal)
+      initMap();
+    })
+  })
+  
+  overlay.addEventListener('click', () => {
+    const modals = document.querySelectorAll('.modal.active')
+    modals.forEach(modal => {
+      closeModal(modal)
+    })
+  })
+  
+  closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const modal = button.closest('.modal')
+      closeModal(modal)
+    })
+  })
+  
+  function openModal(modal) {
+    if (modal == null) return
+    modal.classList.add('active')
+    overlay.classList.add('active')
+  }
+  
+  function closeModal(modal) {
+    if (modal == null) return
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
+  }
+
+                    
