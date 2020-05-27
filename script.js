@@ -318,7 +318,15 @@ function openNav() {
     document.getElementById("mySidepanel").style.width = "0";
   }
 
+  // Mobile ticket 
+
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
   
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
 
 
            

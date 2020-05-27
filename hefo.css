@@ -72,7 +72,63 @@ body {
     margin-top: 10px;
     margin-right: 30px;
 }
+/*ticket mobile*/ 
 
+.navigation .open-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:rgba(144, 44, 108,0);
+    padding: 30px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    z-index: 7;
+  }
+  
+  .form-container {
+    max-width: 100%;
+    padding: 10px;
+    background-color:rgba(144, 44, 108,0.5);
+    border-radius: 15px;
+  }
+  
+
+  .form-container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 15px;
+  }
+  
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  .form-container .btn {
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color:rgba(144, 44, 108,0);
+    
+  }
+  
+
+/* burgermenu */
 
 .sidepanel  {
     width: 0;
@@ -391,18 +447,7 @@ footer p {
         z-index: -10;
         
     }
-    .gulTekst  {
-        display: block;
-        text-transform: uppercase;
-        position: relative;
-        bottom: 20px;
-        left: 0;
-        font-size: 28px;
-        color: #FFE74C;
-        align-self: flex-end;
-        z-index: 100;
-        padding: 15px;
-    }
+
     .honest {
         opacity: .7;
     }

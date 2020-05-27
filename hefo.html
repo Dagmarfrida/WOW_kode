@@ -27,7 +27,30 @@
                     </div>
                  </li>
                 <button class="openbtn" onclick="openNav()">☰ </button> 
-                    <li class="ticket"><a href="#"><img src="fotos/ticket.png" alt="ticket icon"></a></li>
+
+
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+
+    <label for="from"></label>
+    <input type="text" placeholder="From">
+
+    <label for="to"></label>
+    <input type="text" placeholder="To">
+
+    <button type="button" class="btn cancel" onclick="closeForm()"><img src="fotos/ticket.png" alt="ticket icon"></button>
+  </form>
+
+</div>
+</li>           
+    <div>     
+        <li class="ticket">
+            <a href="#"><img src="fotos/ticket.png" alt="ticket"></a>
+               <button class="open-button" onclick="openForm()"></button>
+        </li>
+ </div> 
+
                     <li class="liveChatLogo"><a href="#"><img src="fotos/ChatBot.svg" alt="live chat icon"></a></li>
             </ul>
         </nav> 
