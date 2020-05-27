@@ -223,7 +223,7 @@ body {
 }
 .signUp form {
     text-align: right;
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     justify-content: flex-end;
 }
@@ -242,7 +242,7 @@ body {
 }
 #signupBtn {
     margin-top: 0;
-    font-size: calc(14px + 1vw);
+    font-size: calc(12px + 1vw);
     color: white;
     background-color: #99278F;
     border-radius: 0 10px 10px 0;
@@ -463,6 +463,10 @@ footer p {
         padding-right: 1.5em;
         padding-left: 1.5em;
     }
+    .signUp form {
+        margin: 2rem;
+        
+    }
 
     /*FOOTER*/
     footer { 
@@ -605,6 +609,7 @@ footer p {
         text-align: center;
         text-transform: uppercase;
         font-size: 20px;
+        letter-spacing: 1px;
     }
   
     .honestSign {
@@ -641,7 +646,8 @@ footer p {
     font-weight: lighter;
     margin-top: 0px;
     margin-bottom: 20px;
-    font-size: 4vw;
+    font-size: calc(20px + 2vw);
+    letter-spacing: 2px;
    
 }
 
