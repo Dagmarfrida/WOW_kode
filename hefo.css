@@ -661,130 +661,73 @@ footer p {
     font-family: 'Alcefun';
  
   }
-.txt1, .txt2, .txt3, .txt4 {
+p.txt1 {
+    color:#99278F ;
     font-size: calc(14px + 2vw);
+    text-align: center;
 }
+
+
 .price1, .price2, .price3, .price4 {
     font-size: calc(12px + 1vw);;
 }
 
-  /*destination*/
-  .txt1 {
-    background-color:rgba(144, 44, 108,0.5);
-    color: #ffffff;
-    /*padding-left: 29%;
-    padding-right: 30%;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: absolute;
-    text-align: center;
-    bottom: 0%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    
-  }
-
-  .txt2 {
-    background-color:rgba(144, 44, 108,0.5);
-    color: #ffffff;
-    /*padding-left: 27%;
-    padding-right: 26%;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    width: 100%;
-    bottom: 0%;
-    transform: translate(-50%, -50%);
-  }
-
-  .txt3 {
-    background-color:rgba(144, 44, 108,0.5);
-    color: #ffffff;
-    /*padding-left: 40%;
-    padding-right: 40%;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    width: 100%;
-    bottom: 0%;
-    transform: translate(-50%, -50%);
-  }
-
-  .txt4 {
-    background-color:rgba(144, 44, 108,0.5);
-    color: #ffffff;
-    /*padding-left: 23%;
-    padding-right: 23%;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: absolute;
-    text-align: center;
-   
-    left: 50%;
-    width: 100%;
-    bottom: 0%;
-    transform: translate(-50%, -50%);
-  }
-
+ 
+ 
   /*price circle*/
 
   .price1{
-      background: linear-gradient(#FF6F59, #FEE382);
+      background: #99278F;
       font-weight: bold;
-      color: #441151;
+      color: white;
       padding: 7%;
       padding-top: 9%;
       border-radius: 50%;
       text-align: center;
       position: absolute;
-      top: 65%;
+      top: 10%;
       left: 95%;
       transform: translate(-70%, -75%);
   }
 
   .price2{
-    background: linear-gradient(#FF6F59, #FEE382);
+    background: #99278F;
     font-weight: bold;
-    color: #441151;
+    color: white;
     padding: 7%;
     padding-top: 9%;
     border-radius: 50%;
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 10%;
     left: 95%;
     transform: translate(-70%, -75%);
 }
   
 .price3{
-    background: linear-gradient(#FF6F59, #FEE382);
+    background: #99278F;
     font-weight: bold;
-    color: #441151;
+    color: white;
     padding: 7%;
     padding-top: 9%;
     border-radius: 50%;
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 10%;
     left: 95%;
     transform: translate(-70%, -75%);
 }
 
 .price4{
-    background: linear-gradient(#FF6F59, #FEE382);
+    background: #99278F;
     font-weight: bold;
-    color: #441151;
+    color: white;
     padding: 7%;
     padding-top: 9%;
     border-radius: 50%;
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 10%;
     left: 95%;
     transform: translate(-70%, -75%);
 }
@@ -815,68 +758,10 @@ footer p {
   }
 
 
-/* Mobile M 
-  @media only screen and (min-width: 321px) {
-
-  }
-
-/*
-    .txt1 {
-        padding-left: 33%;
-        padding-right: 33%;
-    }
-    .txt2 {
-        padding-left: 31%;
-        padding-right: 30%;
-    }
-    .txt3 {
-        padding-left: 42%;
-        padding-right: 41%;
-    }
-    .txt4 {
-        padding-left: 28%;
-        padding-right: 27%;
-    }*/
-  
-
-  /* Mobile L 
-  @media only screen and (min-width: 376px) {
-    .txt1 {
-        padding-left: 34%;
-        padding-right: 36%;
-    }
-    .txt2 {
-        padding-left: 35%;
-        padding-right: 31%;
-    }
-    .txt3 {
-        padding-left: 44%;
-        padding-right: 41%;
-    }
-    .txt4 {
-        padding-left: 32%;
-        padding-right: 28%;
-    }
-  }
 
     /* Tablet */
     @media only screen and (min-width: 426px) {
-       /* .txt1 {
-            padding-left: 33%;
-            padding-right: 34%;
-        }
-        .txt2 {
-            padding-left: 33%;
-            padding-right: 30%;
-        }
-        .txt3 {
-            padding-left: 43%;
-            padding-right: 40%;
-        }
-        .txt4 {
-            padding-left: 29%;
-            padding-right: 27%;
-        }*/
+
         .landscape {
             display: none;
         }
@@ -898,68 +783,6 @@ footer p {
 
 
       }
-
-
-
-        /* Laptop
-  @media only screen and (min-width: 769px) {
-    /*.txt1 {
-        padding-left: 38%;
-        padding-right: 38%;
-    }
-    .txt2 {
-        padding-left: 36%;
-        padding-right: 36%;
-    }
-    .txt3 {
-        padding-left: 44%;
-        padding-right: 44%;
-    }
-    .txt4 {
-        padding-left: 34%;
-        padding-right: 34%;
-    }
-  }*/
-
- /* Laptop L
- @media only screen and (min-width: 1025px) {
-.txt1 {
-     padding-left: 41%;
-      padding-right: 42%;
-  }
- .txt2 {
-    padding-left: 41%;
-    padding-right: 40%;
-    }
-.txt3 {
-    padding-left: 46%;
-    padding-right: 46%;
-    }
-.txt4 {
-    padding-left: 39%;
-    padding-right: 38%;
-    }
-}*/
-
- /* Desktop
- @media only screen and (min-width: 1441px) {
-    .txt1 {
-         padding-left: 45%;
-          padding-right: 46%;
-      }
-     .txt2 {
-        padding-left: 45%;
-        padding-right: 44%;
-        }
-    .txt3 {
-        padding-left: 48%;
-        padding-right: 48%;
-        }
-    .txt4 {
-        padding-left: 43%;
-        padding-right: 43%;
-        }
-    }*/
 
 
     /*Hexagon gallery*/
