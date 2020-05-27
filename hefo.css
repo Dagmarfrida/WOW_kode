@@ -6,6 +6,11 @@
     src: url(fonts/proxima_ssv/ProximaNova-Regular.otf);
     font-family: proximaRegular;
 }
+
+@font-face  {
+    src: url(fonts/Stalemate-Regular.ttf);
+    font-family: StalemateRegular;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -930,8 +935,35 @@ p.txt1 {
 
     .hex1 .desktoplogo{
         width: 100%;
-
        }
+   
+    .icelandhex, .summerhex, .vacationhex {
+    font-family: StalemateRegular;
+    width: 100%;
+    font-size: 115px;
+    color: white;
+    padding-top: 100%;
+    padding-bottom: 100%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;   
+    top: 55%;  
+      }
+
+    
+    .icelandhex{
+      background-color: #75DDDD;  
+    }
+    
+    .summerhex {
+    background-color: #FFE74C;
+          }
+
+    .vacationhex {
+    background-color: #FF4F79;
+    }
 
     .hexagon-gallery{
         display: none;
@@ -958,6 +990,8 @@ p.txt1 {
     -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
     clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   }
+
+ 
   
   .hex1:first-child {
     grid-column-start:1 ;
