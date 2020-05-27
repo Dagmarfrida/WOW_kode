@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="hefo.css">
     <link rel="stylesheet" href="/FontAwesome/all.min.css">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>   
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <!--  <link rel="stylesheet" href="./style/scss.css">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!--MOBIL-->
     <header class="mobilHeader">
         <img class="wowLila" src="fotos/logolila.svg" alt="WOW air logo purple">
     </header>
-        <nav class="navigation">
-            <ul>  
-                <li class="burgermenu"> 
-                    <div id="mySidepanel" class="sidepanel">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                        <a href="#"><img src="/fotos/mobile_white.svg" alt="touch screen icon">+1555-5555</a><br>
-                        <a href="#"><img src="/fotos/check_white.svg" alt="check in icon">Check In</a>
-                        <a href="#"><img src="/fotos/booking_white.svg" alt="my bookings icon">My Bookings</a>
-                        <a href="#"><img src="/fotos/info_white.svg" alt="travel info icon">Travel Info</a>
-                        <a href="#"><img src="/fotos/search_white.svg" alt="search icon">Search</a>
-                    </div>
-                 </li>
-                <button class="openbtn" onclick="openNav()">☰ </button> 
+    <nav class="navigation">
+        <ul>
+            <li class="burgermenu">
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#"><img src="/fotos/mobile_white.svg" alt="touch screen icon">+1555-5555</a><br>
+                    <a href="#"><img src="/fotos/check_white.svg" alt="check in icon">Check In</a>
+                    <a href="#"><img src="/fotos/booking_white.svg" alt="my bookings icon">My Bookings</a>
+                    <a href="#"><img src="/fotos/info_white.svg" alt="travel info icon">Travel Info</a>
+                    <a href="#"><img src="/fotos/search_white.svg" alt="search icon">Search</a>
+                </div>
+            </li>
+            <button class="openbtn" onclick="openNav()">☰ </button>
 
 
 
-<div class="form-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
 
-    <label for="from"></label>
-    <input type="text" placeholder="From">
+                    <label for="from"></label>
+                    <input type="text" placeholder="From">
 
-    <label for="to"></label>
-    <input type="text" placeholder="To">
+                    <label for="to"></label>
+                    <input type="text" placeholder="To">
 
-    <button type="button" class="btn cancel" onclick="closeForm()"><img src="fotos/ticket.png" alt="ticket icon"></button>
-  </form>
+                    <button type="button" class="btn cancel" onclick="closeForm()"><img src="fotos/ticket.png"
+                            alt="ticket icon"></button>
+                </form>
 
-</div>
-</li>           
-    <div>     
-        <li class="ticket">
-            <a href="#"><img src="fotos/ticket.png" alt="ticket"></a>
-               <button class="open-button" onclick="openForm()"></button>
-        </li>
- </div> 
+            </div>
+            </li>
+            <div>
+                <li class="ticket">
+                    <a href="#"><img src="fotos/ticket.png" alt="ticket"></a>
+                    <button class="open-button" onclick="openForm()"></button>
+                </li>
+            </div>
 
-                    <li class="liveChatLogo"><a href="#"><img src="fotos/ChatBot.svg" alt="live chat icon"></a></li>
-            </ul>
-        </nav> 
+            <li class="liveChatLogo"><a href="#"><img src="fotos/ChatBot.svg" alt="live chat icon"></a></li>
+        </ul>
+    </nav>
     <section class="forsideMobil">
         <h1>The World Awaits</h1>
     </section>
@@ -64,27 +67,43 @@
         <div class="headerNav">
             <img class='wowHvid' src="fotos/logohvid.png" alt="wow air logo white ">
             <ul>
-                <a href="#"><li><h2>Home</h2></li></a>
-                <a href="#"><li><h2>Check In</h2></li></a>
-                <a href="#"><li><h2>My Bookings</h2></li></a>
-                <a href="#"><li><h2>Travel Info</h2></li></a>            
+                <a href="#">
+                    <li>
+                        <h2>Home</h2>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <h2>Check In</h2>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <h2>My Bookings</h2>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <h2>Travel Info</h2>
+                    </li>
+                </a>
             </ul>
         </div>
     </header>
-        <section class="forside">
+    <section class="forside">
         <div class="bookingDesktop">
             <h2>Find flights</h2>
-             <form action="">
-                 <div class="fromTo"><input type="text" name="from" id="from" placeholder="From:">
-                 <img src="/fotos/airplane_lila.png" alt="airplane icon">
-                 <input type="text" name="to" id="to" placeholder="To:">
-                 </div>
-                 <div class="searchBtnContainer">
-                <input type="submit" name="search flights" id="searchBtn" value="Search flights">
-            </div>
-             </form>
-            </div>
-            <img src="/fotos/flyverudenhjul1.svg" alt="wow airplane" id="airplane">
+            <form action="">
+                <div class="fromTo"><input type="text" name="from" id="from" placeholder="From:">
+                    <img src="/fotos/airplane_lila.png" alt="airplane icon">
+                    <input type="text" name="to" id="to" placeholder="To:">
+                </div>
+                <div class="searchBtnContainer">
+                    <input type="submit" name="search flights" id="searchBtn" value="Search flights">
+                </div>
+            </form>
+        </div>
+        <img src="/fotos/flyverudenhjul1.svg" alt="wow airplane" id="airplane">
     </section>
     <div id="liveChatContainer"><img src="/fotos/ChatBot.svg" alt="Livechat icon" id="liveChat">
     </div>
@@ -92,15 +111,15 @@
     <!--BOOKING TABLET-->
 
     <section class="bookingTablet">
-       <h2>Find flights</h2>
+        <h2>Find flights</h2>
         <form action="">
             <input type="text" name="from" id="from" placeholder="From:">
             <img src="/fotos/flymaskine_hvid.png" alt="airplane icon">
             <input type="text" name="to" id="to" placeholder="To:">
             <input type="submit" name="search flights" id="searchBtn" value="Search flights">
         </form>
-   </section>
-   <div class="honestSign">
+    </section>
+    <div class="honestSign">
         <section class="honestFares">
             <h3>Honest Fares</h3>
             <div class="hfIcons">
@@ -115,15 +134,20 @@
                 <div class="nutrition">
                     <img src="/fotos/cutlery.png" alt="cutlery icon">
                     <p>Nutrition</p>
-                </div> 
+                </div>
             </div>
-            <p class="honestTekst">WOW air leads the industry with Honest Fares™ which means when you book on WOW air, your Honest Fare includes your bag, seat, food and Internet while traveling in WOW world. <br><br> WOW fares include all the basics one expects at an honest price <br><br> WOW world™ we offer Honest Fares.</p>
+            <p class="honestTekst">WOW air leads the industry with Honest Fares™ which means when you book on WOW air,
+                your Honest Fare includes your bag, seat, food and Internet while traveling in WOW world. <br><br> WOW
+                fares include all the basics one expects at an honest price <br><br> WOW world™ we offer Honest Fares.
+            </p>
             <a href="#"><button id="readMoreBtn">Read more...</button></a>
         </section>
         <section class="signUp">
-            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_GIqo2k.json" background="transparent"  speed="1" class="mailbox" loop autoplay></lottie-player> 
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_GIqo2k.json" background="transparent"
+                speed="1" class="mailbox" loop autoplay></lottie-player>
             <!--you can put ´controls´ after loop to see play/pause and timeline of the animation-->
-            <p class="signupTekst">Sign up to our e-mail list to get the latest news and the best deals when we start our service again</p>
+            <p class="signupTekst">Sign up to our e-mail list to get the latest news and the best deals when we start
+                our service again</p>
             <form action="">
                 <input type="email" id="email" name="email" value="@">
                 <input id="signupBtn" type="submit" value="Sign Up!">
@@ -133,105 +157,243 @@
 
     <!--HEXAGON MOBILE-->
     <h2 class="headerUndersider">Explore Iceland!</h2>
-   <div class="scrolling-wrapper">
-    <div class="card" ><img src="fotos/airplane.jpg" alt="airplane"></div>
-    <div class="card"><img src="fotos/Blue-lagoon-winter.jpg" alt="blue lagoon"></div>
-    <div class="card"><img src="Iceland_fotos/whales_of_iceland_museum-7.jpg" alt="whale museum"></div>
-    <div class="card"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
-    <div class="card"><img src="Iceland_fotos/tectonic-plates-569347_1920.jpg" alt="tectonic plates"></div>
-    <div class="card"><img src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
-    <div class="card"><img src="Iceland_fotos/vikingaheimar.jpg" alt="viking museum"></div>
-    <div class="card"><img src="Iceland_fotos/horses-2427513_1920.jpg" alt="horses"></div>
-    <div class="card"><img class="mobilelogo" src="fotos/logohvid.svg" alt="logo"></div>
-  </div>
-   
-   <!--HEXAGON TABLET-->
-  <section class="hexagon-gallery">
-    <div class="hex"><img src="fotos/airplane.jpg" alt="airplane"></div>
-    <div class="hex"><img src="fotos/Blue-lagoon-winter.jpg" alt="blue lagoon"></div>
-    <div class="hex"><img src="Iceland_fotos/whales_of_iceland_museum-7.jpg" alt="whale museum"></div>
-    <div class="hex"><img src="Iceland_fotos/horses-2427513_1920.jpg" alt="horses"></div>
-    <div class="hex"><img src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
-    <div class="hex"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
-    <div class="hex"><img src="Iceland_fotos/basalt-bars-2173278_1920.jpg" alt="balsalt"></div>
-    <div class="hex"><img src="Iceland_fotos/puffins-2819126_1920.jpg" alt="puffins"></div>
-    <div class="hex"><img src="fotos/logohvid.svg" alt="logo"></div>
-  </section>
-
-<!--HEXAGON DESKTOP-->
-
-<section class="hexagon-gallery1">
-    <div class="hex1"><img src="fotos/airplane.jpg" alt="airplane"></div>
-    <div class="hex1"><img src="fotos/Blue-lagoon-winter.jpg" alt="blue lagoon"></div>
-    <div class="hex1"><img src="Iceland_fotos/whales_of_iceland_museum-7.jpg" alt="whale museum"></div>
-    <div class="hex1"><div class="icelandhex">Iceland</div></div>
-    <div class="hex1"><img src="Iceland_fotos/basalt-bars-2173278_1920.jpg" alt="balsalt"></div>
-    <div class="hex1"><div class="summerhex">Summer</div></div>
-    <div class="hex1"><img src="Iceland_fotos/puffins-2819126_1920.jpg" alt="puffins"></div>
-    <div class="hex1"><img src="Iceland_fotos/horses-2427513_1920.jpg" alt="horses"></div>
-    <div class="hex1"><img src="Iceland_fotos/iceland-269977_1920.jpg" alt="hut"></div>
-    <div class="hex1"><div class="vacationhex">Vacation</div></div>
-    <div class="hex1"><img src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
-    <div class="hex1"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
-    <div class="hex1"><img class="desktoplogo" src="fotos/logohvid.svg" alt="logo"></div>
-  </section>
-
-<img class="landscape" src="fotos/telt.jpg" alt="Landscape">
-
-<h2 class="headerUndersider">Just a flight away</h2>
-<div class="responsive">
-    <div class="gallery">
-        <img src="fotos/reykjavik1.jpg" alt="Reykjavik" width="400" height="600">  
-        <p class="txt1">Reykjavik</p>
-        <p class="price1">$99</p>
-      </a>
-    
+    <div class="scrolling-wrapper">
+        <div class="card"><img src="fotos/airplane.jpg" alt="airplane"></div>
+        <div class="card"><img src="fotos/Blue-lagoon-winter.jpg" alt="blue lagoon"></div>
+        <div class="card"><img src="Iceland_fotos/whales_of_iceland_museum-7.jpg" alt="whale museum"></div>
+        <div class="card"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
+        <div class="card"><img src="Iceland_fotos/tectonic-plates-569347_1920.jpg" alt="tectonic plates"></div>
+        <div class="card"><img src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
+        <div class="card"><img src="Iceland_fotos/vikingaheimar.jpg" alt="viking museum"></div>
+        <div class="card"><img src="Iceland_fotos/horses-2427513_1920.jpg" alt="horses"></div>
+        <div class="card"><img class="mobilelogo" src="fotos/logohvid.svg" alt="logo"></div>
     </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-        <img src="fotos/stpeters1.jpg" alt="St. Petersburg" width="400" height="600">
-        <p class="txt1">St. Petersburg</p>
-        <p class="price2">$99</p>
-    </a>
-      
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-        <img src="fotos/paris1.jpg" alt="Paris" width="400" height="600">
-        <p class="txt1">Paris</p>
-        <p class="price3">$99</p>
-      </a>
-      
-    </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
-        <img src="fotos/cph1.jpg" alt="Copenhagen" width="400" height="600">
-        <p class="txt1">Copenhagen</p>
-        <p class="price4">$99</p>
-    </a>
+    <!--HEXAGON TABLET-->
+    <section class="hexagon-gallery">
+        <div class="hex"><img src="fotos/airplane.jpg" alt="airplane"></div>
+        <div class="hex"><img data-modal-target="#modalBlueLagoon" src="fotos/Blue-lagoon-winter.jpg" alt="blue lagoon">
+        </div>
+        <div class="hex"><img src="Iceland_fotos/whales_of_iceland_museum-7.jpg" alt="whale museum"></div>
+        <div class="hex"><img src="Iceland_fotos/horses-2427513_1920.jpg" alt="horses"></div>
+        <div class="hex"><img src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
+        <div class="hex"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
+        <div class="hex"><img src="Iceland_fotos/basalt-bars-2173278_1920.jpg" alt="balsalt"></div>
+        <div class="hex"><img src="Iceland_fotos/puffins-2819126_1920.jpg" alt="puffins"></div>
+        <div class="hex"><img src="fotos/logohvid.svg" alt="logo"></div>
+    </section>
+
+    <!--HEXAGON DESKTOP-->
+
+    <section class="hexagon-gallery1">
+        <div class="hex1"><img src="fotos/airplane.jpg" alt="airplane"></div>
+        <div class="hex1"><img data-modal-target="#modalBlueLagoon" src="fotos/Blue-lagoon-winter.jpg"
+                alt="blue lagoon"></div>
+        <div class="hex1"><img data-modal-target="#modalWhalesOfIceland"
+                src="Iceland_fotos/whales_of_iceland_museum-7.jpg" alt="whale museum"></div>
+        <div class="hex1">
+            <div class="icelandhex">Iceland</div>
+        </div>
+        <div class="hex1"><img data-modal-target="#modalBasaltBars" src="Iceland_fotos/basalt-bars-2173278_1920.jpg"
+                alt="balsalt"></div>
+        <div class="hex1">
+            <div class="summerhex">Summer</div>
+        </div>
+        <div class="hex1"><img data-modal-target="#modalPuffins" src="Iceland_fotos/puffins-2819126_1920.jpg"
+                alt="puffins"></div>
+        <div class="hex1"><img data-modal-target="#modalHorses" src="Iceland_fotos/horses-2427513_1920.jpg"
+                alt="horses"></div>
+        <div class="hex1"><img data-modal-target="#modalHut" src="Iceland_fotos/iceland-269977_1920.jpg" alt="hut">
+        </div>
+        <div class="hex1">
+            <div class="vacationhex">Vacation</div>
+        </div>
+        <div class="hex1"><img data-modal-target="#modalGeyser" src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
+        <div class="hex1"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
+        <div class="hex1"><img class="desktoplogo" src="fotos/logohvid.svg" alt="logo"></div>
+    </section>
+
+    <!--Blue Lagoon Pop-up-->
+    <div class="modal" id="modalBlueLagoon">
+        <div class="modal-header">
+            <div class="title">Blue Lagoon</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtBlueLagoon" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
     </div>
-  </div>
-   
-  <img class="landscape1" src="fotos/telt1.jpg" alt="Landscape">
+    <!--Whales of Iceland Pop-up-->
+    <div class="modal" id="modalWhalesOfIceland">
+        <div class="modal-header">
+            <div class="title">Whales of Iceland</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtWhales" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+    </div>
+    <!--Basalt Bars Pop-up-->
+    <div class="modal" id="modalBasaltBars">
+        <div class="modal-header">
+            <div class="title">Basalt Bars</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtBasaltBars" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+    </div>
+    <!--Puffins Pop-up-->
+    <div class="modal" id="modalPuffins">
+        <div class="modal-header">
+            <div class="title">Puffins</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtPuffins" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+    </div>
+    <!--Horses Pop-up-->
+    <div class="modal" id="modalHorses">
+        <div class="modal-header">
+            <div class="title">Puffins</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtHorses" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+    </div>
+    <!--Hut Pop-up-->
+    <div class="modal" id="modalHut">
+        <div class="modal-header">
+            <div class="title">Hut</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtHut" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+    </div>
+    <!--Hut Pop-up-->
+    <div class="modal" id="modalGeyser">
+        <div class="modal-header">
+            <div class="title">Geyser</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtGeyser" class="modal-body">
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum
+                obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus,
+                consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad
+                autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint
+                officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam!
+                Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+            </div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+    <img class="landscape" src="fotos/telt.jpg" alt="Landscape">
+
+    <h2 class="headerUndersider">Just a flight away</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="fotos/reykjavik1.jpg" alt="Reykjavik" width="400" height="600">
+            <p class="txt1">Reykjavik</p>
+            <p class="price1">$99</p>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="fotos/stpeters1.jpg" alt="St. Petersburg" width="400" height="600">
+            <p class="txt1">St. Petersburg</p>
+            <p class="price2">$99</p>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="fotos/paris1.jpg" alt="Paris" width="400" height="600">
+            <p class="txt1">Paris</p>
+            <p class="price3">$99</p>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img src="fotos/cph1.jpg" alt="Copenhagen" width="400" height="600">
+            <p class="txt1">Copenhagen</p>
+            <p class="price4">$99</p>
+            </a>
+        </div>
+    </div>
+
+    <img class="landscape1" src="fotos/telt1.jpg" alt="Landscape">
 
     <footer class="footer">
-       <div class="footer_left">
-           <h4>WOW air</h4>
-           <a href="#"><p>Contact</p></a>
-            <a href="#"><p>Airports</p></a>
+        <div class="footer_left">
+            <h4>WOW air</h4>
+            <a href="#">
+                <p>Contact</p>
+            </a>
+            <a href="#">
+                <p>Airports</p>
+            </a>
             <p>News from WOW</p>
-            
-        </div> 
+
+        </div>
         <div class="footer_center">
             <h4>WOW World</h4>
             <p>About WOW</p>
-            
+
             <p class="noMobil">WOW air Cargo</p>
             <p>Honest Fares</p>
             <p class="noMobil">WOW Magazine</p>
@@ -254,8 +416,9 @@
         </div>
     </footer>
     <script src="script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByiX6jUaUpt57IBb7ObN9P8qjFHbZP0QY"
-async defer></script>
-<script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByiX6jUaUpt57IBb7ObN9P8qjFHbZP0QY" async
+        defer></script>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
 </body>
+
 </html>
