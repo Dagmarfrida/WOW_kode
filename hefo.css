@@ -526,21 +526,6 @@ footer p {
     }
    
      
-    .gulTekst  {
-        grid-column: 2;
-        grid-row: 2;
-        display: block;
-        text-transform: capitalize;
-        position: absolute;
-        margin-bottom: 0.2rem;
-        bottom: 0;
-        right: 0;
-        font-size: 2vw;
-        color: #FFE74C;
-        z-index: 100;
-        text-align: start;
-       
-    }
     .bookingDesktop {
         display: block;
         display: flex;
@@ -805,7 +790,7 @@ p.txt1 {
 
           /*style*/
 
-    .card{
+    .card .hex1{
         width: 190px;
         height: 215px;
         background-color: #99278F;
@@ -813,12 +798,13 @@ p.txt1 {
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
 
-     .card img, .hex1 img {
+     .card img {
         width: auto;
         height: 100%;
         display: block;
         object-fit: cover;
       }
+
 
 .scrolling-wrapper{
     padding-top: 10%;
@@ -827,18 +813,21 @@ p.txt1 {
 
 /* Hexagon mobile*/
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 699px) {
 .hexagon-gallery{
     display: none;
 }
 .hexagon-gallery1{
     display: none;
 }
+.card .mobilelogo{
+ width: 100%;
+}
 
 }
  /* Hexagon gallery Tablet*/
  
- @media only screen and (min-width: 426px) {
+ @media only screen and (min-width: 700px) {
 
     /*FÅ FOOTER TIL BUNDEN*/
     .footer {
@@ -927,11 +916,16 @@ p.txt1 {
 
 /*Hexagon gallery laptop L*/
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1023px) {
 
     .scrolling-wrapper {
         display: none; 
     }
+
+    .hex1 .desktoplogo{
+        width: 100%;
+
+       }
 
     .hexagon-gallery{
         display: none;
