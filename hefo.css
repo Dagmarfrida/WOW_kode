@@ -865,6 +865,11 @@ p.txt1 {
         height:102%;
       }
 
+      .hex img:hover {
+        cursor:pointer;
+        height:102%;
+      }      
+
 
 .scrolling-wrapper{
     padding-top: 10%;
