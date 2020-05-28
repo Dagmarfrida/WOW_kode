@@ -322,7 +322,7 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     margin-top: 2rem;
     bottom: 0;
     width: 100%;
