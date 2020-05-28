@@ -209,7 +209,7 @@
             <div class="vacationhex">Vacation</div>
         </div>
         <div class="hex1"><img data-modal-target="#modalGeyser" src="Iceland_fotos/geyser-3242008_1920.jpg" alt="geyser"></div>
-        <div class="hex1"><img src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
+        <div class="hex1"><img data-modal-target="#modalBeer" src="Iceland_fotos/aegisgardur_beer.jpeg" alt="beer"></div>
         <div class="hex1"><img class="desktoplogo" src="fotos/logohvid.svg" alt="logo"></div>
     </section>
 
@@ -315,7 +315,7 @@
             </div>
         </div>
     </div>
-    <!--Hut Pop-up-->
+    <!--Geyser Pop-up-->
     <div class="modal" id="modalGeyser">
         <div class="modal-header">
             <div class="title">Geyser</div>
@@ -332,6 +332,19 @@
             </div>
         </div>
     </div>
+    <!--Geyser Pop-up-->
+    <div class="modal" id="modalBeer">
+        <div class="modal-header">
+            <div class="title">Iceland Breweries</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div id="txtBeer" class="modal-body">
+            <div class="modal-body">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
     <div id="overlay"></div>
 
     <img class="landscape" src="fotos/telt.jpg" alt="Landscape">
