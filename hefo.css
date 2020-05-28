@@ -24,13 +24,11 @@ body {
 
 .wowLila {
     position: absolute;
-    height: 60px;
-    width: 60px;
-    left: 4.53%;
-    right: 79.47%;
-    top: 0.89%;
-    bottom: 96.89%;
+    height: 200px;
+    width: 200px;
+    top: -1.5%;
     z-index: 3;
+    left: -10%;
 }
 
 .navigation ul {
