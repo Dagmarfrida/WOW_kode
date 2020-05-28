@@ -9,7 +9,6 @@
     <!--  <link rel="stylesheet" href="./style/scss.css">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Wow air</title>
 </head>
 
@@ -477,11 +476,12 @@
         </div>
     </footer>
 
-    
-    <script type="text/javascript" src="jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByiX6jUaUpt57IBb7ObN9P8qjFHbZP0QY" ></script>
     <script src="script.js"></script>
-    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByiX6jUaUpt57IBb7ObN9P8qjFHbZP0QY" async
+        defer></script>
+
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+
 </body>
 
 </html>
