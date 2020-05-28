@@ -852,7 +852,7 @@ p.txt1 {
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
 
-     .card img {
+     .card img, .hex1 img {
         width: auto;
         height: 100%;
         display: block;
