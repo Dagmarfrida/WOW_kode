@@ -339,8 +339,11 @@ function openNav() {
     img.addEventListener('click', () => {
       const modal = document.querySelector(img.dataset.modalTarget)
       openModal(modal)
-      initMap();
-    })
+      console.log(modal)
+      //if modal="modalBeer" {
+      //  initMap();
+      //  }
+        })
   })
   
   overlay.addEventListener('click', () => {
