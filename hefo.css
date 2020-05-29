@@ -870,15 +870,17 @@ footer p {
  
     /*FUNCTION*/ 
 
-.scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    }
-    
-.card {
-     display: inline-block;
-    }
+    /*horizontal scrolling containers - https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6 */
+
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+      }
+      
+      .card {
+          display: inline-block;
+        }
 
 .scrolling-wrapper {
     -webkit-overflow-scrolling: touch;
@@ -935,7 +937,9 @@ footer p {
     width: 100%;
     }
 }
- /* ---HEXAGON GALLERY TABLET*/
+ /* Hexagon gallery Tablet*/
+
+ /* Hexagon gallery - https://codepen.io/izer/pen/RYvevG */ 
  
  @media only screen and (min-width: 700px) {
 
@@ -1026,6 +1030,8 @@ footer p {
  }
 
 /*---HEXAGON GALLERY LAPTOP--- L*/
+
+/* Hexagon shape - https://codepen.io/imohkay/pen/ZGbmoQ */
 
 @media only screen and (min-width: 1023px) {
     
