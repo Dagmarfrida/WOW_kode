@@ -11,7 +11,6 @@ openModalImages.forEach(img => {
     openModal(modal)
     if (modal ='#modalBeer')  {
       initMap();
-      
       }
       })
 })
