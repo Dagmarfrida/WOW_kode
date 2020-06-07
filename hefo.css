@@ -933,7 +933,7 @@ footer p {
         display: none;
     }
     .card .mobilelogo{
-    width: 100%;
+        width: 100%;
     }
 }
  /* Hexagon gallery Tablet*/
@@ -1044,7 +1044,7 @@ footer p {
     .icelandhex, .summerhex, .vacationhex {
         font-family: StalemateRegular;
         width: 100%;
-        font-size: 115px;
+        font-size: 90px;
         color: white;
         padding-top: 100%;
         padding-bottom: 100%;
@@ -1080,6 +1080,7 @@ footer p {
         padding-top: 25px;
         grid-auto-columns: 100px;
         grid-gap: 14px;
+        justify-content: center;
     }
   
     .hex1 {
@@ -1173,6 +1174,9 @@ footer p {
     .hex1 {
         width: 245px;
         height: 245px;
+    }
+    .icelandhex, .summerhex, .vacationhex {
+        font-size: 115px;
     }
 }
 
