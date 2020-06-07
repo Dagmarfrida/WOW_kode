@@ -1,14 +1,14 @@
 @font-face {
-    src: url(Alcefun/Alcefun.otf);
+    src: url(./fonts/Alcefun/Alcefun.otf);
     font-family: Alcefun;  
 }
 @font-face  {
-    src: url(fonts/proxima_ssv/ProximaNova-Regular.otf);
+    src: url(./fonts/proxima_ssv/ProximaNova-Regular.otf);
     font-family: proximaRegular;
 }
 
 @font-face  {
-    src: url(fonts/Stalemate-Regular.ttf);
+    src: url(./fonts/Stalemate-Regular.ttf);
     font-family: StalemateRegular;
 }
 * {
