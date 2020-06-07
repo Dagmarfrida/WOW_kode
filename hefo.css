@@ -326,7 +326,7 @@ body {
        text-align: left;
        background-color:#99278F;
        color: white;
-       padding-top: 15%;
+       padding-top: 5%;
        padding-left: 5%;
        padding-bottom: 5%;
        font-family: Alcefun; 
@@ -1081,6 +1081,7 @@ footer p {
         grid-auto-columns: 100px;
         grid-gap: 14px;
         justify-content: center;
+        padding-right: 3%;
     }
   
     .hex1 {
@@ -1168,7 +1169,6 @@ footer p {
 
     .hexagon-gallery1 {
         grid-template-columns: repeat(7, 180px);
-        padding-left: 1%;
     }
     
     .hex1 {
