@@ -306,7 +306,7 @@ function initMap(){
 //burgermenu 
 
 function openNav() {
-    document.getElementById("mySidepanel").style.width = "250px";
+    document.getElementById("mySidepanel").style.width = "200px";
   }
   
   function closeNav() {
