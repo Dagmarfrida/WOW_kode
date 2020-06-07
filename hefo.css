@@ -956,7 +956,6 @@ footer p {
         display: none;
     }
 
-   
     .hexagon-gallery {
         display: block;
         display: grid;
@@ -1209,7 +1208,8 @@ footer p {
 
 #modalBeer{
     width: 600px;
-    height:700px;
+    height: 70%;
+    z-index: 120;
   }
   
 .modal.active {
