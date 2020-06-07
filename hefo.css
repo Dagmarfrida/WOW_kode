@@ -127,7 +127,7 @@ body {
 .sidepanel  {
     width: 0;
     position: fixed;
-    height: 50%;
+    height: 70%;
     bottom: 75px;
     left: 0;
     background-color:rgba(144, 44, 108,0.5);
@@ -167,10 +167,7 @@ body {
     color: white;
     border: none;
     margin-right: 40%;
-}
-
-.openbtn:hover {
-    background-color:#444;
+    outline: none;
 }
 
 .forsideMobil {
