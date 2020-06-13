@@ -1206,7 +1206,16 @@ footer p {
     max-width: 80%;
     height: 300px;
   }
-
+#modalFlyver {
+    width: 650px;
+    height: 400px;
+}
+#modalFlyver iframe {
+    margin: auto auto;
+}
+#txtFlyver {
+    text-align: center;
+}
 #modalBeer{
     width: 600px;
     height: 70%;
